@@ -1,4 +1,4 @@
-# Practice
+# **Practice**
 
 This repository contains scripts for programming training.
 
