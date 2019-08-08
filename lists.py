@@ -1,6 +1,6 @@
 def first_last_nr():
     b = [a[0], a[-1]]
-    print (b)
+    print(b)
     for x in b:
         print(x)
 if __name__ == '__main__':
