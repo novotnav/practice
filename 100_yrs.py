@@ -9,8 +9,8 @@ def year_count():
     yyear = now.year - age + 100
     nyear = yyear - 1
     if bday is "y":
-        print(str(name) + ", you will turn 100 in the year " + (str(yyear)))
+        print(str(name) + ", you will turn 100 in the year " + (str(yyear)) + ".")
     if bday is "n":
-        print(str(name) + ", you will turn 100 in the year " + (str(nyear)))
+        print(str(name) + ", you will turn 100 in the year " + (str(nyear)) + ".")
 
 year_count()
