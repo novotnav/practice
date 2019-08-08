@@ -5,10 +5,12 @@ age = int(age)
 import datetime
 now = datetime.datetime.now()
 
-yyear = now.year - age + 100
-nyear = yyear - 1
+def year_count():
+    yyear = now.year - age + 100
+    nyear = yyear - 1
+    if bday is "y":
+        print(str(name) + ", you will turn 100 in the year " + (str(yyear)))
+    if bday is "n":
+        print(str(name) + ", you will turn 100 in the year " + (str(nyear)))
 
-if bday is "y":
-    print(str(name) + ", you will turn 100 in the year " + (str(yyear)))
-if bday is "n":
-    print(str(name) + ", you will turn 100 in the year " + (str(nyear)))
+year_count()
