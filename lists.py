@@ -5,12 +5,6 @@ def first_last_nr():
     for x in b:
         print(x)
 
-if __name__ == "__main__":
-    a = [6, 12, 18, 24, 30]
-    first_last_nr()
-
-print(" ")
-
 def first_last_arg():
     import sys
     first_arg = sys.argv[1]
@@ -19,4 +13,7 @@ def first_last_arg():
     print(last_arg)
 
 if __name__ == "__main__":
+    a = [6, 12, 18, 24, 30]
+    first_last_nr()
+    print(" ")
     first_last_arg()
